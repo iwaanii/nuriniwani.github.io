@@ -1,0 +1,277 @@
+<html>
+
+<head><title>Contact Information</title></head>
+
+<body>
+<style>
+
+body {
+  background-color: #BCCE98;
+}
+margin: 0;
+ font-family: Arial , serif;
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #9FCB66;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #E9E285;
+  color: white;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+<body>
+<div class="row">
+<div class="topnav">
+  <a href="index.html">Iwani's Homepage</a>
+  <a href="Resume.html">Resume</a>
+  <a href="mygallery.html">My Gallery</a>
+  <a class="active" href="contact information.html">Contact Information</a>
+</div>
+</div>
+
+<style>
+header{
+height:60px;
+background:#262626;
+padding:0 50px;
+}
+
+nav{
+width : 68%;
+float : right;
+}
+nav ul{
+list-style:none;
+float:right;
+}
+
+nav ul li{
+display: inline-block;
+}
+nav ul li a{
+text-decoration:none;
+color: #fff;
+font-family:sans-serif;
+font-weight:bold;
+margin:0 10px;
+line-height:60px;
+text-transform:uppercase;
+}
+
+nav ul li a:hover{
+background: #0000ff80;
+}
+.heading{
+font-size:48px;
+margin:32px;
+text-transform:capitalize;
+font-family: Arial ;
+text-align:center;
+}
+.contact-form{
+width:85%;
+max-width:600px;
+background: #f1f1f1;
+margin-top:25px;
+padding: 30px 40px;
+border-radius:8px;
+text-align:center;
+box-shadow: 0 0 20px #000000b3;
+font-family:Montserrat;
+} 
+
+.contact-form h1{
+margin-top:0;
+font-weight:200;
+text-align:center;
+}
+
+.txtb{
+border:4px solid gray;
+margin: 12px 18px;
+border-radius: 8px;
+}
+
+.txtb label{
+display:block;
+text-align: left;
+color: #333;
+text-transform: uppercase;
+font-size:14px;
+text-align:center;
+}
+
+.txtb input, txtb textarea{
+width:100%;
+border:none;
+background: none;
+ountline:none;
+font-size:18px;
+margin-top:6px;
+text-align:center;
+}
+
+.btn{
+display:block;
+background:#9b59b6;
+padding: 14px 0;
+color: white;
+text-transform: uppercase;
+cursor: pointer;
+margin-top: 8px
+width:100%;
+}
+
+.content{
+padding:50px;
+}
+
+.content a img{
+width:5%;
+} 
+
+footer{
+background:#000;
+color:#fff;
+padding:0px 50px;
+text-align:center;
+font-family:sans-serif;
+font-size:20px;
+}
+</style>
+
+
+<form>
+<section class="contain">
+<center>
+<div class = "contact-form">
+<h1>CONTACT ME</h1>
+
+<div class="txtb">
+<span class="details">FULL NAME</span>
+<input type="text" placeholder="Enter Your Full Name" required oninvalid="this.setCustomValidity('Please Enter Your Full Name')" oninput="this.setCustomValidity('')">
+</div>
+
+<div class="txtb">
+<span class="details">EMAIL ADRESS</span>
+<input type="text" placeholder="Enter Your Email Adress" required oninvalid="this.setCustomValidity('Please Enter Your Email Adress')" oninput="this.setCustomValidity('')">
+</div>
+
+<div class="txtb">
+<span class = "details">GENDER
+<br>
+Male<input type="radio">
+Female<input type="radio" >
+</span>					
+</div>
+
+<div class="txtb">
+<span class="details">CONTACT NUMBER</span>
+<input type="text" placeholder="Enter Your Contact Number" required oninvalid="this.setCustomValidity('Please Enter Your Contact Number')" oninput="this.setCustomValidity('')">
+</div>
+
+<div class="txtb">
+<span class="details">PREFERRED SOCIAL MEDIA
+<br>
+<td>
+Instagram<input type="checkbox">
+Facebook<input type="checkbox" >
+Twitter<input type= "checkbox" >
+</td></span>
+</div>
+
+<div class="txtb">
+<span class=details">PLEASE SELECT YOUR STATE</span>
+<select name="Duration">
+<option value="SELECT">SELECT
+<option value="Terengganu">Terengganu
+<option value="Perlis">Perlis
+<option value="Selangor">Selangor
+<option value="Negeri Sembilan">Negeri Sembilan
+<option value="Johor">Johor
+<option value="Kelantan">Kelantan
+<option value="Perak">Perak
+<option value="Kedah">Kedah
+<option value="Pahang">Pahang
+<option value="Sabah">Sabah
+<option value="Sarawak">Sarawak
+<option value="Melaka">Melaka
+<option value="Pulau Pinang">Pulau Pinang
+<option value="Wilayah Persekutuan">Wilayah Persekutuan
+</select>
+</div>
+
+<div class="txtb">
+<span class="details">SUBJECT</span>
+<br>
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px "></textarea>
+</br>
+</div>
+
+<div class = "button">
+<input type ="submit" value="SUBMIT">
+
+</center>
+</div>
+</div>
+
+<center>
+<a href="https://www.instagram.com/nuriniwani__/"><img src="C:\Users\SAFUAN\OneDrive\Desktop\iwani's\ig.png" width='100' height='100'></a>
+<a href="https://twitter.com/iwaanii"><img src="C:\Users\SAFUAN\OneDrive\Desktop\iwani's\twt.png" width='100' height='100'></a>
+<a href="https://www.facebook.com/nurin.auni.56/"><img src="C:\Users\SAFUAN\OneDrive\Desktop\iwani's\fb.png" width='100' height='100'></a>
+</center>
+</body>
+</body>
+</head>
+</html>
